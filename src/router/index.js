@@ -3,6 +3,7 @@ import HomeView from '../pages/HomeView.vue'
 import PostView from '../pages/PostView.vue'
 import PostShowView from '../pages/PostShowView.vue'
 import NotFoundView from '../pages/NotFound.vue'
+import LeadCreateView from '../pages/LeadCreateView.vue'
 
 const routes = [
   {
@@ -20,6 +21,11 @@ const routes = [
         name: 'postShow',
         component: PostShowView,
         props: true,
+  },
+  {
+        path: '/lead/create',
+        name: 'lead-create',
+        component: LeadCreateView
   },
   {
         path: '/pagina-non-trovata',
